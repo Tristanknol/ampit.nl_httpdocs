@@ -1,0 +1,2 @@
+npx tailwindcss build style.css -o AMP-IT.nl/output.css --watch --verbose // For file watching ATP
+
