@@ -9,6 +9,21 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-input::placeholder {
+input::placeholder, textarea::placeholder {
     padding-left: 1rem;
+}
+
+.animate-shake {
+    animation-name: delayed-shake;
+    animation-delay: 2s;
+    animation-duration: 10s;
+    animation-iteration-count: 99;
+}
+
+@keyframes delayed-shake {
+    0% {rotate: 0deg}
+    4% {rotate: 15deg}
+    8% {rotate: -15deg}
+    12% {rotate: 0deg}
+    100% {rotate: 0deg}
 }
