@@ -8,3 +8,7 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+input::placeholder {
+    padding-left: 1rem;
+}

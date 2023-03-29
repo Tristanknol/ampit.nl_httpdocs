@@ -3,7 +3,12 @@ module.exports = {
   mode: 'jit',
   content: [
     './index.php',
-    './style.css'
+    './header.php',
+    './style.css',
+    './websites.php',
+    './werkwijze.php',
+    './footer.php',
+      './contact.php'
   ],
   theme: {
     extend: {}

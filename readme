@@ -1,2 +1,9 @@
-npx tailwindcss build style.css -o AMP-IT.nl/output.css --watch --verbose // For file watching ATP
+npx tailwindcss build -i style.css -o output.css// For file watching ATP
 
+Changes for live site,
+Build everything
+Remove CDN Link from header
+
+Make maps with every file named index so .php doesnt show up in the nav bar.
+Remove every node module file.
+Look into file size's
