@@ -27,3 +27,13 @@ input::placeholder, textarea::placeholder {
     12% {rotate: 0deg}
     100% {rotate: 0deg}
 }
+
+.animate-rotating {
+    animation: rotating 10s infinite linear;
+}
+
+@keyframes rotating {
+    0% {rotate: 0deg}
+    99% {rotate: 359deg;}
+    100% {rotate: 360deg;}
+}

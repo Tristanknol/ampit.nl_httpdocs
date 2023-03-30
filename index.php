@@ -23,7 +23,7 @@
         </div>
     </div>
 
-<div class="mt-5 mx-5 text-white sm:grid text-center gap-10 lg:grid-cols-3 lg:grid-rows-2">
+<div class="mt-5 mx-5 text-white sm:grid text-center gap-10 px-10 lg:grid-cols-3 lg:grid-rows-2">
     <div class="bg-blue-400 relative my-20 sm:my-0 py-5 col-span-2 grid col-span-1 sm:grid-cols-6 xl:grid-cols-10 rounded-xl">
         <div class="m-auto hidden sm:block w-full sm:col-span-2 ml-10 min-h-[80%] h-5 xl:col-span-3">
         <img class="min-h-[100%] h-5" src="media/phone.png">
@@ -31,7 +31,7 @@
         <div class="sm:col-span-4 xl:col-span-7">
             <h1 class="py-5 text-2xl">Onze diensten</h1>
             <p class="px-5">Met het Content Management Systeem (CMS) kunt u zelf gemakkelijk uw content bewerken. Wij bieden websites op maat die volledig aan uw eisen voldoen en er modern en aantrekkelijk uitzien. Neem <a class="text-blue-700" href="contact.php">contact</a> met ons op en ontdek hoe wij u kunnen helpen om online succes te behalen! </p>
-        <button class="px-5 py-2 mt-8 mb-10 xl:mb-3 bg-blue-600 rounded-3xl text-white"><a href="websites.php">Meer over onze diensten</a></button>
+            <button class="px-5 py-2 mt-8 mb-10 xl:mb-3 bg-blue-600 rounded-3xl text-white"><a href="websites.php">Meer over onze diensten</a></button>
     </div>
     </div>
     <div class="my-20 sm:my-0  bg-blue-400 rounded-xl">
@@ -61,5 +61,4 @@
       <button class="px-5 mb-10 xl:mb-3 py-2 mt-8 bg-blue-600 rounded-3xl text-white"><a href="werkwijze.php">Werkwijze</a></button>
     </div>
 </div>
-</body>
-</html>
+<?php include "footer.php" ?>
